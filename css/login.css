@@ -1,0 +1,128 @@
+*{
+    font-family: 'Inter';
+}
+
+.tela{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: center;
+    height: 1000px;
+   
+    
+    align-items:center;
+    justify-content: space-around;
+    
+}
+body{
+    background-color:#181B24;
+    ;
+
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    
+    
+    
+    padding: 30px 120px;
+}
+
+h1{
+    font-weight:bold;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+img{
+    max-width: 100%;
+    width: 100%;
+    padding-bottom: 27px;
+}
+a{
+    text-decoration: none;
+    max-width: 100%;
+    padding-bottom: 0px;
+}
+.esqueci{
+    text-align: right;
+    padding-bottom: 35px;
+    color:#105F74;
+    font-weight: 560;  
+}
+.registrar{
+    text-align: center;
+    padding-bottom: 35px;
+    color:#105F74;
+    font-weight:bolder;  
+    text-decoration: none;
+}
+
+@media (max-width: 700px)
+{
+    .tela{
+        
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        width: 95%;
+        
+    }
+
+    .container2{
+      
+       display: flex;
+      
+        max-width: 100%;
+       
+        padding: 0px;
+        width: 20%;
+    }
+    .container1{
+        padding: 0px;
+       
+        width: 95%;
+        max-width: 100%;
+        
+    }
+    .equal{
+        max-width: 150%;
+        width: 200%;
+       
+    }
+    .cadastro{
+        align-items: center;
+    }
+    h1{
+        font-size: x-large;
+    }
+    .esqueci{
+        font-size: small;
+    }
+    .login{
+        align-items: center;
+
+    }
+    .diferente{
+        max-width: 100%;
+    }
+}
+@media (max-width: 450px)
+{
+    .equal{
+        max-width: 300%;
+        width: 260%;
+       
+    }
+
+}
+@media (max-width: 360px)
+{
+    .equal{
+        max-width: 450%;
+        width: 400%;
+       
+    }
+
+}
